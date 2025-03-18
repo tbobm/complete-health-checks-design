@@ -1,5 +1,10 @@
 ---
 services:
+  cache:
+    image: redis
+    restart: on-failure
+    ports:
+      - 6379:6379
   db:
     image: postgres
     restart: always
@@ -18,3 +23,4 @@ services:
       - 8000:8000
     environment:
       DATABASE_URL: postgresql://user:password@db/example
+      REDIS_URL: redis://cache/0
