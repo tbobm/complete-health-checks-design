@@ -2,6 +2,10 @@
 
 Minimal working example design to introduce **Complete Health Checks** in comparison to health checks.
 
+Check the full article here: [Medium - Complete health checks and why they matter][article-link]
+
+[article-link]: https://medium.com/@tbobm/complete-health-checks-and-why-they-matter-8b2120d86e4f
+
 ## Content
 
 This repository contains the following:
